@@ -29,8 +29,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  Option selectedOption = Option.LogIn;
-
   LogIn logIn = new LogIn();
   @override
   Widget build(BuildContext context) {
